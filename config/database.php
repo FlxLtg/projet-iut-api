@@ -2,10 +2,10 @@
 
 class Database{
 
-    private $host = "localhost:8889";
-    private $db_name = "api";
+    private $host = "localhost:3306";
+    private $db_name = "projet-iut-api";
     private $username = "root";
-    private $password = "root";
+    private $password = "";
     public $conn;
 
     public function getConnection(){

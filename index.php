@@ -44,7 +44,7 @@ class DB {
 
     public function __construct()
     {
-        $this->conn = new PDO("mysql:host=localhost:8889;dbname=api", "root", "root");;
+        $this->conn = new PDO("mysql:host=localhost:3306;dbname=projet-iut-api", "root", "");;
     }
 
     /**
